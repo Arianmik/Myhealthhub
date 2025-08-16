@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - HealthHub</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">❤️ HealthHub</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                <button class="mobile-menu-btn">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container" style="padding: 4rem 0;">
+        <h1>About HealthHub</h1>
+        
+        <div class="card" style="padding: 2rem; margin: 2rem 0;">
+            <h2>Our Mission</h2>
+            <p>At HealthHub, our mission is to provide evidence-based health information that empowers individuals to make informed decisions about their well-being.</p>
+        </div>
+        
+        <div class="card" style="padding: 2rem; margin: 2rem 0;">
+            <h2>Our Team</h2>
+            <p>Our content is created and reviewed by healthcare professionals including doctors, nutritionists, and fitness experts.</p>
+        </div>
+        
+        <div class="card" style="padding: 2rem; margin: 2rem 0; text-align: center;">
+            <h2>Join Our Mission</h2>
+            <p>Help us make quality health information accessible to everyone</p>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2023 HealthHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        });
+    </script>
+</body>
+</html>
